@@ -1,0 +1,62 @@
+
+* {
+
+    /* outline: dashed tomato; */
+}
+.banner {
+    height:80vh;
+    margin: 1rem 1rem 0rem 1rem;
+    border-radius: 25px;
+    position: relative;
+    background: url(https://www.gannett-cdn.com/-mm-/f84446caf8653a6380f5d79c19fc402f2c0ee5ef/c=0-117-2290-1411/local/-/media/2015/06/19/Phoenix/Phoenix/635703265591593686-ThinkstockPhotos-97499828.jpg) top;
+    background-size: 120rem;
+    height: 84vh;
+}
+.banner__search {
+    margin: 0rem 0rem 0rem 0rem;
+    text-transform: uppercase;
+    font-family: 'Quicksand';
+}
+.banner__search__button.btn {
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    font-weight: 500;
+    color: #ff7779;
+}
+.banner__search__button.btn:hover {
+    background-color: #ff7779;
+    font-weight: 700;
+    color: white;
+}
+.banner__info {
+    position: absolute;
+    bottom: 2rem;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+    justify-content: center;
+}
+.banner__info > h1 {
+    font-size: 42pt;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin:7rem;
+}
+.banner__info > h5 {
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 18pt;
+}
+.explore.btn {
+    border-radius: 20px;
+    background-color: rgba(211, 211, 211, 0.352);
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    width: 10rem;
+    
+}
+.explore.btn:hover {
+    background-color:rgba(255, 255, 255, 0.537);
+    color: #4b5a9b;
+}

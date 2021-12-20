@@ -1,0 +1,24 @@
+.searchPage {
+    margin: 1rem;
+}
+.searchPage__info > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:rgb(66, 89, 89);
+}
+.searchPage__info {
+    margin: 0px 0px 0px 20px;
+}
+.searchPage__info > button {
+    background-color: white;
+    margin: .5rem .5rem 1rem 0rem;
+    border-radius: 30px;
+    padding: 5px 8px 5px 8px;
+    border: none;
+    box-shadow: 2px 5px 10px 1px lightgray;
+    font-size: 10pt;
+}
+.searchPage__info > button:hover {
+    background-color: #ff7779;
+    color:white;
+}

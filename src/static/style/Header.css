@@ -1,0 +1,59 @@
+
+* {
+    /* outline: tomato dashed; */
+} 
+.header {
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top:0;
+    z-index: 100;
+    width: 100%;
+    gap:.5rem;
+}
+.header__container {
+    gap:1rem;
+}
+.header__icon {
+    object-fit: contain;
+    height: 40px;
+    margin: 10px 0px 0px 20px;
+    
+}
+.header__center {
+    flex:1;
+    position: relative;
+    gap:.5rem;
+    max-width: fit-content;
+    padding:10px;
+    height:35px;
+    box-shadow: .2rem .4rem 1.5rem .1rem rgb(227, 227, 227);
+    border: none;
+    border-radius: 550px;
+}
+.header__center:hover {
+    box-shadow:none;
+    border: 1px solid rgb(227, 227, 227) ;
+}
+.header__center > input {
+    border: none;
+    outline-width: 0;
+}
+.header__right {
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    margin: 10px 20px 0px 0px;
+    font-size: 10pt;
+    gap:.5rem;
+    font-family: 'Montserrat';
+    color:darkslategray;
+}
+.header__right > p {
+margin-top: 15px;
+}
+.avatar {
+    width:2rem;
+    height:2rem;
+    color: lightgray;
+}
